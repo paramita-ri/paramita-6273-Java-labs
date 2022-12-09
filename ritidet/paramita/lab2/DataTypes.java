@@ -17,18 +17,20 @@ package ritidet.paramita.lab2;
 
 public class DataTypes {
     public static void main(String[] args) {
-        String my_name = "Paramita ritidet" ;
-        String my_studentID = "6530406273" ;
-        Character first_Letter_Of_FirstName = (my_name.charAt(0)) ;
-        boolean valueOfBoolean = true ;
-        int myID_in_Octal = 0111 ;
-        int myID_in_Hexadecimal = 0x49 ;
-        long lastTwoDigits_Of_ID = 73L ;
-        float lastTwoDigitsID_point_FirstTwoDigitsID = 73.65F ;
-        Double lastTwoDigitsID_point_LastTwoDigitsCurrentYear = 73.22 ;
+        String my_name = "Paramita ritidet";
+        String my_studentID = "6530406273";
+        Character first_Letter_Of_FirstName = (my_name.charAt(0));
+        boolean valueOfBoolean = true;
+        int myID_in_Octal = 0111;
+        int myID_in_Hexadecimal = 0x49;
+        long lastTwoDigits_Of_ID = 73L;
+        float lastTwoDigitsID_point_FirstTwoDigitsID = 73.65F;
+        Double lastTwoDigitsID_point_LastTwoDigitsCurrentYear = 73.22;
         System.out.println("My name is " + my_name);
         System.out.println("My student ID was " + my_studentID);
-        System.out.println(first_Letter_Of_FirstName + " " + valueOfBoolean + " " + myID_in_Octal + " " + myID_in_Hexadecimal );
-        System.out.println(lastTwoDigits_Of_ID + " " + lastTwoDigitsID_point_FirstTwoDigitsID + " " + lastTwoDigitsID_point_LastTwoDigitsCurrentYear);
+        System.out.println(
+                first_Letter_Of_FirstName + " " + valueOfBoolean + " " + myID_in_Octal + " " + myID_in_Hexadecimal);
+        System.out.println(lastTwoDigits_Of_ID + " " + lastTwoDigitsID_point_FirstTwoDigitsID + " "
+                + lastTwoDigitsID_point_LastTwoDigitsCurrentYear);
     }
 }

@@ -21,20 +21,17 @@ package ritidet.paramita.lab2;
 
 public class StringAPI {
     public static void main(String[] args) {
-        int length_of_args = args.length ;
-        String schoolName = args[0] ; 
-        if (length_of_args == 1){
+        int length_of_args = args.length;
+        String schoolName = args[0];
+        if (length_of_args == 1) {
             if (schoolName.contains("university") || schoolName.contains("University")) {
                 System.out.println(schoolName + " is a university");
-            }
-            else if (schoolName.contains("college") || schoolName.contains("College")) {
+            } else if (schoolName.contains("college") || schoolName.contains("College")) {
                 System.out.println(schoolName + " is a  college");
+            } else {
+                System.out.println(schoolName + " is neither a university nor a college");
             }
-            else {
-            System.out.println(schoolName + " is neither a university nor a college");
-            }
-        }
-        else{
+        } else {
             System.out.println("Usagse : StringSPI < School Name >");
         }
     }

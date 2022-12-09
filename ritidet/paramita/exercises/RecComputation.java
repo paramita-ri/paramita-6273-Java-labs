@@ -15,15 +15,15 @@ package ritidet.paramita.exercises;
 
 public class RecComputation {
     public static void main(String[] args) {
-        int length_of_args = args.length ;
+        int length_of_args = args.length;
         if (length_of_args == 2) {
-            double width = Double.parseDouble(args[0]) ;
-            double heigth = Double.parseDouble(args[1]) ; 
-            double circumference = (2 * heigth) + (2 * width) ;
-            double area = heigth * width ;
-            System.out.println("The circumference of a rectangle with wigth = " + width + " and height = " + heigth + " is " + circumference + " and its area is " + area);
-        }
-        else{
+            double width = Double.parseDouble(args[0]);
+            double heigth = Double.parseDouble(args[1]);
+            double circumference = (2 * heigth) + (2 * width);
+            double area = heigth * width;
+            System.out.println("The circumference of a rectangle with wigth = " + width + " and height = " + heigth
+                    + " is " + circumference + " and its area is " + area);
+        } else {
             System.out.println("Usage: <wigth of rectangle> <heigth of rectangle>");
         }
     }
