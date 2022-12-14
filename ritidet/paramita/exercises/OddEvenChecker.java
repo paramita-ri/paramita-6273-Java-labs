@@ -1,5 +1,5 @@
 /**
-* This OddEvenCheker program is to accept one arguments: integer
+* This OddEvenChecker program is to accept one arguments: integer
 * and check that integer is even or odd number.
 * if integer is even
 * Its output format is 
@@ -17,7 +17,7 @@
 
 package ritidet.paramita.exercises;
 
-public class OddEvenCheker {
+public class OddEvenChecker {
     public static void main(String[] args) {
         int length_args = args.length;
         if (length_args == 1) {
@@ -29,7 +29,7 @@ public class OddEvenCheker {
             }
 
         } else {
-            System.out.println("Usage : OddEvenCheker <integer> ");
+            System.out.println("Usage : OddEvenChecker <integer> ");
         }
     }
 }
