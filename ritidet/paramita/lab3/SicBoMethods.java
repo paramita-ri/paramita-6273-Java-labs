@@ -4,8 +4,10 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class SicBoMethods {
+    static int chioce ;
     public static void main(String[] args) {
-        playGame(getChioce());
+        getChioce();
+        playGame();
     }
 
     static int getChioce() {
@@ -13,11 +15,11 @@ public class SicBoMethods {
         System.out.println(
                 "Choose how do you want to bet :\nType 1 for choosing high or low numbers.\nType 2 for choosing number between 1-6.");
         System.out.print("Enter yourchoice:");
-        int chioce = scanner.nextInt();
+        chioce = scanner.nextInt();
         return chioce;
     }
 
-    static void playGame(int chioce) {
+    static void playGame() {
         if (chioce == 1) {
             String type_high_or_low;
             Scanner highLow = new Scanner(System.in);
