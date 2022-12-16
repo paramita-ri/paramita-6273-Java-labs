@@ -5,11 +5,19 @@ import java.util.Scanner;
 
 public class SicBoMethods {
     public static void main(String[] args) {
+        playGame(getChioce());
+    }
+
+    static int getChioce() {
         Scanner scanner = new Scanner(System.in);
         System.out.println(
                 "Choose how do you want to bet :\nType 1 for choosing high or low numbers.\nType 2 for choosing number between 1-6.");
         System.out.print("Enter yourchoice:");
         int chioce = scanner.nextInt();
+        return chioce;
+    }
+
+    static void playGame(int chioce) {
         if (chioce == 1) {
             String type_high_or_low;
             Scanner highLow = new Scanner(System.in);
@@ -84,6 +92,5 @@ public class SicBoMethods {
         } else {
             System.out.println("Incorrect input. Enter 1 or 2 only.");
         }
-        scanner.close();
     }
 }
