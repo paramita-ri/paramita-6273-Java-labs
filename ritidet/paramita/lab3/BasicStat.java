@@ -57,11 +57,12 @@ public class BasicStat {
             for (double num : num_list) {
             System.out.print(num + " ");
             }
-            System.out.println("\nMinimum: " + min);
-            System.out.println("Maximum: " + max);
-            System.out.println("Average: " + avg);
-            System.out.println("Median: " + median);
+            
             DecimalFormat df = new DecimalFormat("#.##");
+            System.out.println("\nMinimum: " + df.format(min));
+            System.out.println("Maximum: " + df.format(max));
+            System.out.println("Average: " + df.format(avg));
+            System.out.println("Median: " + df.format(median));
             System.out.println("Standard deviation: " + df.format(standard_dev));
         } else if (num_Strings.length == 0) {
             System.out.println("please enter at least one number.");

@@ -1,4 +1,4 @@
-/**
+/** 
 * This SicBo program is to accept two arguments to choose the game : 1 or 2
 * if players choose 1 players will play highlow game with 3 dice :
 *   choose the total of number that will be on 3 dice 
