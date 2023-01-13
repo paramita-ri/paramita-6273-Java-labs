@@ -1,15 +1,21 @@
 /**
-* This SicBoV2 program is to accept two arguments to choose the game : 1 or 2
+* This SicBoV4 program is that get choice from playyers to play two game 
+* 1.High-Low game 2.three dice game and keeps track of what the player 
+* has played and what the results are.This programs has two methods 
+* first getChioce() method that accept two arguments to choose the game : 1 or 2
+* second  playGame() method that use for play game 
+* The functionality of this program is as follows.
 * if players choose 1 players will play highlow game with 3 dice :
 *   choose the total of number that will be on 3 dice 
 *   if total of dice between 3-10 is low .if total of dice between 11-18 is high
-*   if players bet correctly players wins 20 baht .if players bet incorrectly players loose 10 baht
+*   if players bet correctly he/she wins 20 baht .if players bet incorrectly he/she loose 10 baht
 * if players choose 2 players will play choosing number game with 3 dice :
 *   choose number between 1-6 that will be on 3 dice
-*   if players bets correct one dice players wins 10 * 1 * (3 % 5 + 1) baht 
-*   if players bets correct two dice players wins 10 * 2 * (3 % 5 + 1) baht
-*   if players bets correct three dice players wins 10 * 3 * (3 % 5 + 1) baht
-*   if players bets incorrect players loose 10 baht
+*   if players bets correct one dice he/she wins 30 baht
+*   if players bets correct two dice he/she wins 60 baht
+*   if players bets correct three dice he/she wins 90 baht
+*   if players bets incorrect he/she loose 10 baht
+* in game if players input value that not match the conditions program will get input again.
 * when players finish game if players press 'a' game will start again , 
 * if press other keys game will end.
 *

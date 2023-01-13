@@ -1,5 +1,9 @@
 /**
-* This SicBoV3 program is to accept two arguments to choose the game : 1 or 2
+* This SicBoV3 program is that get choice from playyers to play two game 
+* 1.High-Low game 2.three dice game. This programs has two methods 
+* first getChioce() method that accept two arguments to choose the game : 1 or 2
+* second  playGame() method that use for play game 
+* The functionality of this program is as follows.
 * if players choose 1 players will play highlow game with 3 dice :
 *   choose the total of number that will be on 3 dice 
 *   if total of dice between 3-10 is low .if total of dice between 11-18 is high

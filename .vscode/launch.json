@@ -1,0 +1,2233 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArithDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c2.ArithDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch AssignOpsDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c2.AssignOpsDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch BooleanOpsDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c2.BooleanOpsDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch CircleComputation",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c2.CircleComputation",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConditionalOpsDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c2.ConditionalOpsDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch EnumDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c2.EnumDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Greetings",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c2.Greetings",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch IncrementOpsDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c2.IncrementOpsDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Interest",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c2.Interest",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberLiteralsDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c2.NumberLiteralsDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Precedence",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c2.Precedence",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch RecComputation",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c2.RecComputation",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch RectangleComputation",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c2.RectangleComputation",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ShortCircuitDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c2.ShortCircuitDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimpleCalculator",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c2.SimpleCalculator",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch StaticConceptDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c2.StaticConceptDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch StaticNonStatic",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c2.StaticNonStatic",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringOpsDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c2.StringOpsDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TimedComputation",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c2.TimedComputation",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TypeCastingDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c2.TypeCastingDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultiplyDivide",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c2.miw.mook.mick.MultiplyDivide",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch BreakExample",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c3.BreakExample",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ContinueExample",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c3.ContinueExample",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ElseDangling",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c3.ElseDangling",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ForDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c3.ForDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ForDemo2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c3.ForDemo2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch NestedForLoop",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c3.NestedForLoop",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch NestedForLoop1",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c3.NestedForLoop1",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch NestedForLoop2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c3.NestedForLoop2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch NestedForLoop3",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c3.NestedForLoop3",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimpleCalculator(1)",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c3.SimpleCalculator",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch WhileDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c3.WhileDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch FactorialDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c4.FactorialDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch FibonacciDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c4.FibonacciDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ImportDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c4.ImportDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavadocDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c4.JavadocDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxFinder",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c4.MaxFinder",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxFinder2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c4.MaxFinder2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumbersSwapper",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c4.NumbersSwapper",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumbersSwapper2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c4.NumbersSwapper2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch OverloadingDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c4.OverloadingDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch OverloadingDemo2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c4.OverloadingDemo2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch PackageDemo1",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c4.PackageDemo1",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch RecursiveDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c4.RecursiveDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ScannerDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c4.ScannerDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch StaticMembersDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c4.StaticMembersDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch StaticMethodsDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c4.StaticMethodsDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestCircle",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c4.TestCircle",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch AcceptInputs",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.AcceptInputs",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bye",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.Bye",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch COEStudent2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.COEStudent2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch EEStudent",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.EEStudent",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hello",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.Hello",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch KKUStudent",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.KKUStudent",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Line",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.Line",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MethodToStringDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.MethodToStringDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ObjectReferencesDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.ObjectReferencesDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrivateDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.PrivateDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch RandomDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.RandomDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Rec2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.Rec2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ScannerDemo(1)",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.ScannerDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Shape",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.Shape",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringBufferDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.StringBufferDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Student",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.Student",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SuperDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.SuperDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestBook",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.TestBook",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestBook2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.TestBook2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestCircle(1)",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.TestCircle",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestCircle2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.TestCircle2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestCircle3",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.TestCircle3",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestCirclePrivatePublic",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.TestCirclePrivatePublic",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestClassAndInstanceVariables",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.TestClassAndInstanceVariables",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestFlower",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.TestFlower",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestRandom",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.TestRandom",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestRectangle",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.TestRectangle",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestSuperClass",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.TestSuperClass",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestTeacher",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.TestTeacher",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestUserData",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.TestUserData",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThisDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.ThisDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Vehicle",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.Vehicle",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch WrapperClassDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.WrapperClassDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch COEStudent",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.part1.COEStudent",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.part1.Test",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.part1.Test2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestBook3",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.part1.TestBook3",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestCircle(2)",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.part1.TestCircle",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestStudent",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.part1.TestStudent",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestVehicle",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c5.part1.TestVehicle",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ActionListenerDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.ActionListenerDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch BorderLayoutDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.BorderLayoutDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch COEStudent(1)",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.COEStudent",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClickButtonDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.ClickButtonDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ComboBoxDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.ComboBoxDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ComponentEventDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.ComponentEventDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch CoordinateAppDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.CoordinateAppDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch EnKKU",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.EnKKU",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowLayoutDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.FlowLayoutDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch GradientFillsExample",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.GradientFillsExample",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch GridLayoutDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.GridLayoutDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorld2020",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.HelloWorld2020",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorldGUI1",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.HelloWorldGUI1",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorldGUI2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.HelloWorldGUI2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch InputVerifierDialogDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.InputVerifierDialogDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JCheckBoxDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JCheckBoxDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JCheckBoxDemoV2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JCheckBoxDemoV2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JCheckBoxDemoV3",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JCheckBoxDemoV3",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JComboBoxDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JComboBoxDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JFrame1",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JFrame1",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JFrame2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JFrame2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JFrame3",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JFrame3",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JFrame4",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JFrame4",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JFrameSample1",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JFrameSample1",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JListDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JListDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JListDemoV2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JListDemoV2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JListDemoV3",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JListDemoV3",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JMenuLookDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JMenuLookDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JMenuLookDemoV2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JMenuLookDemoV2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JMenuLookDemoV3",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JMenuLookDemoV3",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JMenuLookDemoV4",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JMenuLookDemoV4",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JPanel1",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JPanel1",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JRadioButtonDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JRadioButtonDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JSliderDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JSliderDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JSliderDemo4",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JSliderDemo4",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JSliderDemoV2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JSliderDemoV2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JSliderDemoV4",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JSliderDemoV4",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JTextAreaDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JTextAreaDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JTextAreaDemoV2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JTextAreaDemoV2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JTextAreaDemoV3",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JTextAreaDemoV3",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JTextAreaSample1",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JTextAreaSample1",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JTextAreaSample2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JTextAreaSample2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JTextField2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JTextField2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JTextFieldDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JTextFieldDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JTextFieldDemo2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JTextFieldDemo2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JTextFieldDemo3",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JTextFieldDemo3",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JTextFieldDemoV2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JTextFieldDemoV2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JTextFieldDemoV3",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JTextFieldDemoV3",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JTextFieldDemoV4",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JTextFieldDemoV4",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JTextFieldSample1",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.JTextFieldSample1",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch KKUStudent(1)",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.KKUStudent",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch KeyEventDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.KeyEventDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ListFonts",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.ListFonts",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ListSelectionDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.ListSelectionDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LoadBirdImage",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.LoadBirdImage",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LocalFontDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.LocalFontDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyCatsImage",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.MyCatsImage",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyFirstCircle",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.MyFirstCircle",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyFirstListener",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.MyFirstListener",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyFirstRectangle",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.MyFirstRectangle",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyForm",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.MyForm",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyRabbitImage",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.MyRabbitImage",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MySecondCircle",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.MySecondCircle",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyWindow1",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.MyWindow1",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyWindow2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.MyWindow2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch NameForm",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.NameForm",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch NameFormV2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.NameFormV2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ParentChildDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.ParentChildDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReadImage",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.ReadImage",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReadImage2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.ReadImage2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ShapeExamplePanel",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.ShapeExamplePanel",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimpleForm",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.SimpleForm",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimpleForm1",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.SimpleForm1",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimpleForm2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.SimpleForm2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimpleForm3",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.SimpleForm3",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimpleFormV1",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.SimpleFormV1",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimpleFormV2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.SimpleFormV2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Student(1)",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.Student",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Student2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.Student2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestStudent(1)",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.TestStudent",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestStudent2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.TestStudent2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch UniForm",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.UniForm",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ColorChooserDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.events.ColorChooserDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ColorChooserDemoV2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.events.ColorChooserDemoV2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileChooserDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.events.FileChooserDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JSliderDemoV3",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.events.JSliderDemoV3",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MouseEventDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.events.MouseEventDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MouseListener1",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.events.MouseListener1",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowLayoutDemo(1)",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.samples.FlowLayoutDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveDemo1",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.samples.RemoveDemo1",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JFrame1(1)",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.y2020.JFrame1",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyCheckBox",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.y2020.MyCheckBox",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyCheckBoxV2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.y2020.MyCheckBoxV2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyCheckBoxV3",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.y2020.MyCheckBoxV3",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyForm1",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.y2020.MyForm1",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyRadioButton",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.y2020.MyRadioButton",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyTextArea",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.y2020.MyTextArea",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyWindow",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.y2020.MyWindow",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyWindow2(1)",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.y2020.MyWindow2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyWindow3",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.y2020.MyWindow3",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch PaintV1",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.y2020.PaintV1",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch PaintV2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.y2020.PaintV2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch PaintV3",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.y2020.PaintV3",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch PaintV4",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.y2020.PaintV4",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch PaintV5",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.y2020.PaintV5",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReadImageWindow",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.y2020.ReadImageWindow",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReadImageWindowV2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.y2020.ReadImageWindowV2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestMenu",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.y2020.TestMenu",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestMenuV2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c6.y2020.TestMenuV2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayCopyV1",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.ArrayCopyV1",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayCopyV2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.ArrayCopyV2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayCopyV3",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.ArrayCopyV3",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayCopyV4",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.ArrayCopyV4",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayCopyV5",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.ArrayCopyV5",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayFinderDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.ArrayFinderDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayFinderDemo2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.ArrayFinderDemo2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayInitializerDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.ArrayInitializerDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayListDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.ArrayListDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayNullDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.ArrayNullDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArraySorter",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.ArraySorter",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArraySorter2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.ArraySorter2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayUtilMethodsDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.ArrayUtilMethodsDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArraysAdder",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.ArraysAdder",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArraysSubtract",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.ArraysSubtract",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearch",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.BinarySearch",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch CollectionsDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.CollectionsDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ColorInitializerDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.ColorInitializerDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Covid19",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.Covid19",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch DimArrays2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.DimArrays2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileChooserDemo(1)",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.FileChooserDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch HashMapDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.HashMapDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch HashMapDemo2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.HashMapDemo2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch HashMapDemo3",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.HashMapDemo3",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch HashSetDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.HashSetDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertionSortV1",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.InsertionSortV1",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertionSortV2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.InsertionSortV2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LibraryLinkedList",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.LibraryLinkedList",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinearSearch",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.LinearSearch",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch List1",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.List1",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ListDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.ListDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ListDemoHead",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.ListDemoHead",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxFinder(1)",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.MaxFinder",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyArray1",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.MyArray1",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyArray2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.MyArray2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch OOP1",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.OOP1",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SelectionSort",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.SelectionSort",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestDynamicArray",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.TestDynamicArray",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestPhoneDirectory",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.TestPhoneDirectory",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoDimArrayDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.TwoDimArrayDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoDimArrays",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.TwoDimArrays",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoDimArrays1",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.TwoDimArrays1",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoDimDemo2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.TwoDimDemo2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoDimUnEqualRows",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.TwoDimUnEqualRows",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoDimsUnEqual1",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.TwoDimsUnEqual1",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoDimsUnEqual2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.TwoDimsUnEqual2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Universities",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.Universities",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch VectorDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.VectorDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayListDemo(1)",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.collection.ArrayListDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayListDemo2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.collection.ArrayListDemo2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArraysCollection1",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.collection.ArraysCollection1",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArraysCollection2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.collection.ArraysCollection2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch HashMapDemo1",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.collection.HashMapDemo1",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ListCovid19",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.collection.ListCovid19",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumbersReader",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.collection.NumbersReader",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumbersSorter",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.collection.NumbersSorter",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SetDemo1",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.collection.SetDemo1",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SetDemo2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.collection.SetDemo2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SetTopCovid19",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.collection.SetTopCovid19",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch StudentsCourses",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.collection.StudentsCourses",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch StudentsList1",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c7.collection.StudentsList1",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Adder",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c8.Adder",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayExceptionHandlingDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c8.ArrayExceptionHandlingDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch AssertDemo1",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c8.AssertDemo1",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch AssertDemo2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c8.AssertDemo2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Divider",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c8.Divider",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExceptionDemo1",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c8.ExceptionDemo1",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExceptionDemo1V1",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c8.ExceptionDemo1V1",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExceptionDemo1V2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c8.ExceptionDemo1V2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExceptionDemo2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c8.ExceptionDemo2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExceptionDemo3",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c8.ExceptionDemo3",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExceptionDemo4",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c8.ExceptionDemo4",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileOpener",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c8.FileOpener",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch FinallyDemo",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c8.FinallyDemo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch FinallyDemo2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c8.FinallyDemo2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch InheritanceExceptionV1",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c8.InheritanceExceptionV1",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultipleExceptionsHandling",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c8.MultipleExceptionsHandling",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultipleExceptionsHandlingV2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c8.MultipleExceptionsHandlingV2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultipleExceptionsHandlingV3",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c8.MultipleExceptionsHandlingV3",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch AddNumbers",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c9.AddNumbers",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Covid19(1)",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c9.Covid19",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Covid19Reader",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c9.Covid19Reader",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch DataStreamReader",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c9.DataStreamReader",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch DataStreamWriter",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c9.DataStreamWriter",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch IDsReader",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c9.IDsReader",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch NameWriter",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c9.NameWriter",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ObjStreamReader",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c9.ObjStreamReader",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ObjStreamWriter",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c9.ObjStreamWriter",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReadFileToAddNumbers",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c9.ReadFileToAddNumbers",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReadStudentGPAs",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c9.ReadStudentGPAs",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch StudentObjReader",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c9.StudentObjReader",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch StudentObjWriter",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c9.StudentObjWriter",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TextFileReader",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c9.TextFileReader",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TextFileReader1",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c9.TextFileReader1",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TextFileWriter",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c9.TextFileWriter",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TextFileWriter1",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c9.TextFileWriter1",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TextReader2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c9.TextReader2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TextWriter2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c9.TextWriter2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch UserInputReader1",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c9.UserInputReader1",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch UserInputReader2",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c9.UserInputReader2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch WriteStudentGPAs",
+            "request": "launch",
+            "mainClass": "coe.java.demos.c9.WriteStudentGPAs",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestVehicle(1)",
+            "request": "launch",
+            "mainClass": "coe.java.demos.sec2.TestVehicle",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hello(1)",
+            "request": "launch",
+            "mainClass": "lab1.Hello",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch paramita",
+            "request": "launch",
+            "mainClass": "paramita",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch OddEvenChecker",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.exercises.OddEvenChecker",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch RecComputation(1)",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.exercises.RecComputation",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestEnKKUStudent",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.exercises.TestEnKKUStudent",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch DataTypes",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.lab2.DataTypes",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Footballer",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.lab2.Footballer",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MoneyProcessor",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.lab2.MoneyProcessor",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringAPI",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.lab2.StringAPI",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch BasicStat",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.lab3.BasicStat",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch BasicStatMethod",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.lab3.BasicStatMethod",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SicBo",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.lab3.SicBo",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SicBoMethods",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.lab3.SicBoMethods",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch DisplayMatrix",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.lab4.DisplayMatrix",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SicBoV2",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.lab4.SicBoV2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SicBoV3",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.lab4.SicBoV3",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SicBoV4",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.lab4.SicBoV4",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestPolygons",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.lab5.TestPolygons",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        }
+    ]
+}
