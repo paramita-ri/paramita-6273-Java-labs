@@ -1,3 +1,6 @@
+package ritidet.paramita.lab4;
+
+import java.util.Scanner;
 /**
 * This SicBoV4 program is that get choice from playyers to play two game 
 * 1.High-Low game 2.three dice game and keeps track of what the player 
@@ -19,19 +22,21 @@
 * when players finish game if players press 'a' game will start again , 
 * if press other keys game will end.
 *
-* Author: Paramita Ritidet
-* ID: 653040627-3
-* Sec: 1
-* Date: December 10, 2022
+* @author Paramita ritidet 
+* @version 1.0, 14/1/2023
 *
-**/
-package ritidet.paramita.lab4;
-
-import java.util.Scanner;
+*/
 
 public class SicBoV2 {
     static int chioce;
     static Scanner input = new Scanner(System.in);
+    /**
+     * this main method is run for two method 
+     * get chioce() for get value from player 
+     * playGame() for run game 
+     * 
+     * @param args command line arguments
+     */
 
     public static void main(String[] args) {
         while (true) {
@@ -46,7 +51,12 @@ public class SicBoV2 {
             }
         }
     }
-
+    /**
+     * this getchioce method get input chioce from players in chioce
+     * 
+     * @param input from players
+     * @return chioce 
+     */
     static int getChioce() {
         System.out.println("Welcome to ปรมิตา ฤทธิเดช (653040627-3) Game :" +
                 "\nType 1 for choosing high or low numbers.\nType 2 for choosing number between 1-6.");

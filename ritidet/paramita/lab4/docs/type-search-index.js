@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"ritidet.paramita.lab4","l":"DisplayMatrix"},{"p":"ritidet.paramita.lab4","l":"SicBoV2"},{"p":"ritidet.paramita.lab4","l":"SicBoV3"},{"p":"ritidet.paramita.lab4","l":"SicBoV4"}];updateSearchResults();

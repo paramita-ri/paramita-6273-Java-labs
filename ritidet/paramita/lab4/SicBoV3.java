@@ -1,3 +1,6 @@
+package ritidet.paramita.lab4;
+
+import java.util.Scanner;
 /**
 * This SicBoV3 program is that get choice from playyers to play two game 
 * 1.High-Low game 2.three dice game. This programs has two methods 
@@ -18,20 +21,22 @@
 * when players finish game if players press 'a' game will start again , 
 * if press other keys game will end.
 *
-* Author: Paramita Ritidet
-* ID: 653040627-3
-* Sec: 1
-* Date: December 10, 2022
+* @author Paramita ritidet 
+* @version 1.0, 14/1/2023
 *
-**/
-package ritidet.paramita.lab4;
-
-import java.util.Scanner;
+*/
 
 public class SicBoV3 {
     static int chioce;
     static String chioce_in_String ;
     static Scanner input = new Scanner(System.in);
+    /**
+     * this main method is run for two method 
+     * get chioce() for get value from player 
+     * playGame() for run game 
+     * 
+     * @param args command line arguments
+     */
 
     public static void main(String[] args) {
         while (true) {
@@ -47,7 +52,15 @@ public class SicBoV3 {
 
         }
     }
-
+    
+    /**
+     * this getchioce method get input chioce from players in chioce
+     * and check if players input value that not match the conditions 
+     * program will get input again
+     * 
+     * @param input from players
+     * @return chioce 
+     */
     static int getChioce() {
         while (true) {
             System.out.println("Choose how do you want to bet:" +

@@ -1,3 +1,6 @@
+package ritidet.paramita.lab4;
+
+import java.util.Scanner;
 /**
 * This DisplayMatrix program is the program that creat matrix with row and column by number
 * that user input ,and numbers in matrix is numbers from input to. This program have nine method : 
@@ -15,21 +18,31 @@
 * from the top right to the bottom left.
 * 9. showMatrixByRowZigzag() shows the matrix by row zigzag
 *
+* @author Paramita ritidet 
+* @version 1.0, 14/1/2023
 *
-* Author: Paramita Ritidet
-* ID: 653040627-3
-* Sec: 1
-* Date: December 10, 2022
-*
-**/
-package ritidet.paramita.lab4;
-
-import java.util.Scanner;
+*/
 
 public class DisplayMatrix {
     static int[][] matrix; // 2-dimensional int array named matrix
     static int rowDim, colDim; // the number of rows and columns respectively
     final static Scanner input = new Scanner(System.in); // open new scanner
+    /**
+     * this main method is run for nine method 
+     * inputMatrix() Method that reads the number of rows and columns
+     * and uses those numbers to create the matrix.
+     * showMatrix() Method that show the original matrix that has been entered.
+     * showMatrixByRow() Method that shows the matrix by row.
+     * showMatrixByColumn() Method that hows the matrix by column.
+     * showMatrixByRowBackward() Method that shows the matrix by row backward.
+     * showMatrixByColumnBackward() Method that shows the matrix by column backward.
+     * showMatrixByDiagonalTopLeftBottomRight() Method that shows the diagonal elements of the matrix
+     * from the top left to the bottom right.
+     * showMatrixByDiagonalTopRightBottomLeft() Method that shows the diagonal elements of the matrix
+     * from the top right to the bottom left.
+     * showMatrixByRowZigzag() Method that shows the matrix by row zigzag
+     * @param args command line arguments
+     */
 
     public static void main(String[] args) {
         inputMatrix(); // Method that reads the number of rows and columns
