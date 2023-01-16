@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch WorldAthleteV2",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.lab5.WorldAthleteV2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch WorldAthleteV3",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.lab6.WorldAthleteV3",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch WorldAthlete",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.lab5.WorldAthlete",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
             "name": "Launch TestEnKKUStudents22",
             "request": "launch",
             "mainClass": "ritidet.paramita.exercises.TestEnKKUStudents22",
