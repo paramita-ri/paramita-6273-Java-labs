@@ -1,3 +1,19 @@
+/**
+ * This WorldAthleteV2 program is program has the main method that crete new object
+ * ratchanok, tom, wisaksil, nitchaon by using class BadmintonPlayer, Footballer, Boxer
+ * and using method compareAge() from class Ahtlete ,isTaller() from this program
+ * Its output format of compareAge() is
+ * "<AthleteB> is <year> older/younger than <AthleteA>
+ * or <AthleteA> is as old as <AthleteB>" 
+ * Its output of isTaller() is
+ * true if height of athleteA > height of athleteB
+ * false if height of athleteA < height of athleteB
+ * 
+ * Author: Paramita Ritidet
+ * ID: 653040627-3
+ * Sec: 1
+ * Date: January 16, 2022
+ */
 package ritidet.paramita.lab5;
 
 public class WorldAthleteV2 {

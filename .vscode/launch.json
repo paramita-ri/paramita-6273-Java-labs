@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch InterestingCompetitions",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.lab6.InterestingCompetitions",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestStudent",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.exercises.TestStudent",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
             "name": "Launch WorldAthleteV2",
             "request": "launch",
             "mainClass": "ritidet.paramita.lab5.WorldAthleteV2",

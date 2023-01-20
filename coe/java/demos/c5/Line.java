@@ -1,4 +1,5 @@
-// package coe.java.demos.c5;
+package coe.java.demos.c5;
+
 interface Drawable {
 	public void draw();
 }
@@ -29,4 +30,4 @@ public class Line implements Drawable, Fillable, Colorable {
 		l.draw();
 		l.fill();
 	}
-} */
+} 

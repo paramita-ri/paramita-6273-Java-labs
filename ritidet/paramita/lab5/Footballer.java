@@ -1,7 +1,20 @@
+/**
+ * This Footballer class is subclass of class Athlete that have one static variables 
+ * to record sport "American Football" and two private variables racketLength and worldRanking to 
+ * record racketLength and worldRanking
+ * about Methods in Footballer class ,This class have setter and getter methods for each 
+ * instance attribute of an Footballer ,method toString() to display the information of an Footballer
+ * Its output format of method toString is
+ * "<name>, <weight> kg, <height> m, <gender>, <nationality>, <birthdate>, <sport>, 
+ * <position>, <team>"
+ * 
+ * Author: Paramita Ritidet
+ * ID: 653040627-3
+ * Sec: 1
+ * Date: January 16, 2022
+ * 
+ */
 package ritidet.paramita.lab5;
-
-import java.time.LocalDate;
-import java.time.temporal.ChronoUnit;
 
 class Footballer extends Athlete {
 
@@ -40,20 +53,7 @@ class Footballer extends Athlete {
         super.toString();
         toString.add(position);
         toString.add(team);
-        return name + ", " + weight + "kg, " + height + "m, " + gender + ", " + nationality +
-                ", " + birthdate + ", " + sport + ", " + position + ", " + team;
-    }
-
-    void compareAge(Athlete athleteB) {
-        LocalDate dateBefore = birthdate;
-        LocalDate dateAefore = athleteB.birthdate;
-        int year = (int) ChronoUnit.YEARS.between(dateBefore, dateAefore);
-        if (year < 0) {
-            System.out.println(athleteB.getName() + " is " + Math.abs(year) + " older than " + getName());
-        } else if (year == 0) {
-            System.out.println(getName() + " is as old as " + athleteB.getName());
-        } else {
-            System.out.println(athleteB.getName() + " is " + year + " younger than " + getName());
-        }
+        return toString.toString().replace("[", "")
+                .replace("]", "");
     }
 }

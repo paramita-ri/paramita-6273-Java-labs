@@ -1,7 +1,32 @@
+/**
+ * This Athlete class is the class that have protected instance variables to record the following 
+ * information: name, weight, height, gender, nationality, birthdate and have enum called Gender 
+ * that contains two values: MALE and FEMALE to be used as a value of the variable gender.
+ * about Methods in Ahlete class ,This class have public setter and getter methods for each 
+ * instance attribute of an athlete ,method toString() to display the information of an athlete
+ * Its output format of method toString is
+ * "Athlete [<name>, <weight> kg, <height> m, <gender>, <nationality>, <birthdate>] "
+ * method compareAge() that accepts another athlete then compares the age of an instance 
+ * athlete to that of the other athlete input as a parameter
+ * Its output format of method compareAge() is
+ * “athleteB is <number of years that are different> older than athleteA” 
+ * If athleteB is older than athleteA   
+ * “athleteB is <number of years that are different> younger than athleteA” 
+ * If athleteB is younger than athleteA
+ * “athleteA is as old as athleteB”
+ * If athleteA has the same age as athleteB
+ * 
+ * Author: Paramita Ritidet
+ * ID: 653040627-3
+ * Sec: 1
+ * Date: January 16, 2022
+ */
+
 package ritidet.paramita.lab5;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 
 public class Athlete {
@@ -81,8 +106,20 @@ public class Athlete {
         toString.add(gender.toString());
         toString.add(nationality);
         toString.add(birthdate.toString());
-        return "Athlete [" + name + ", " + weight + "kg, " + height + "m, " + gender + ", " + nationality +
-                ", " + birthdate + "]";
+        return "Athlete " + toString.toString();
+    }
+
+    void compareAge(Athlete athleteB) {
+        LocalDate dateBefore = birthdate;
+        LocalDate dateAefore = athleteB.birthdate;
+        int year = (int) ChronoUnit.YEARS.between(dateBefore, dateAefore);
+        if (year < 0) {
+            System.out.println(athleteB.getName() + " is " + Math.abs(year) + " older than " + getName());
+        } else if (year == 0) {
+            System.out.println(getName() + " is as old as " + athleteB.getName());
+        } else {
+            System.out.println(athleteB.getName() + " is " + year + " younger than " + getName());
+        }
     }
 
 }

@@ -1,3 +1,17 @@
+/**
+ * This TestPolygons program is program has the main method that crete new object
+ * polygon1, polygon2 by using class polygon to set attributes width, height and type 
+ * and using method setNumPolygons(),setSumPolygonsArea()
+ * Its output format of method main is
+ * "The number of polygon is <Polygon.numPolygons> or <Polygon1.numPolygons> or <Polygon2.numPolygons>
+ * The width of polygon1 is <polygon1.width> The width of polygon2 is <polygon2.width>
+ * The sum of polygons area is <Polygon.sumPolygonsArea>"
+ * 
+ * Author: Paramita Ritidet
+ * ID: 653040627-3
+ * Sec: 1
+ * Date: January 9, 2022
+ */
 package ritidet.paramita.lab5;
 
 public class TestPolygons {
@@ -21,43 +35,3 @@ public class TestPolygons {
         System.out.println("The sum of polygons area is " + Polygon.sumPolygonsArea);
     }
 }
-
-class Polygon {
-    double width;
-    double height;
-    static int numPolygons;
-    static double sumPolygonsArea;
-    PolygonType type;
-
-
-    double getArea() {
-        if (type == PolygonType.RECTANGLE) {
-            double area = width * height;
-            return area;
-        } else if (type == PolygonType.TRIANGLE) {
-            double area = (width * height)/2;
-            return area;
-        } else {
-            return 0;
-        }
-
-    }
-
-    static int setNumPolygons(int numNewPolygons) {
-        numPolygons += numNewPolygons;
-        return numPolygons;
-    }
-
-    static double setSumPolygonsArea(double newPolygonsArea) {
-        sumPolygonsArea += newPolygonsArea;
-        return sumPolygonsArea;
-    }
-}
-enum PolygonType {
-    RECTANGLE,
-    TRIANGLE
-}
-
-
-
-

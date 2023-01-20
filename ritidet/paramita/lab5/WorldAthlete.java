@@ -1,3 +1,16 @@
+/**
+ * This WorldAthlete program is program has the main method that crete new object
+ * ratchanok, tom, wisaksil by using class Athlete to set value of all variables in object
+ * ratchanok, tom and wisaksil 
+ * the main method will display value in object by method toString in class Ahtlete
+
+ * 
+ * Author: Paramita Ritidet
+ * ID: 653040627-3
+ * Sec: 1
+ * Date: January 16, 2022
+ * 
+ */
 package ritidet.paramita.lab5;
 
 public class WorldAthlete {
