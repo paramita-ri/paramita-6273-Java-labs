@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AthleteFormV3",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.lab7.AthleteFormV3",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch AthleteFormV2",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.lab7.AthleteFormV2",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch AthleteForm",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.lab7.AthleteForm",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MySimpleWindow",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.lab7.MySimpleWindow",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
             "name": "Launch InterestingCompetitions",
             "request": "launch",
             "mainClass": "ritidet.paramita.lab6.InterestingCompetitions",
