@@ -16,7 +16,7 @@ public class AthleteFormV3 extends AthleteFormV2 {
         AthleteFormV3 msw = new AthleteFormV3("Athlete Form V3");
         msw.addComponents();
         msw.addMenus();
-        msw.setFrameFeatures();
+        msw.setFrameFeatures();     
     }
 
     protected void addMenus() {

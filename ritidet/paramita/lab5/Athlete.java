@@ -40,7 +40,7 @@ public class Athlete {
     protected Gender gender;
     protected LocalDate birthdate;
     final protected DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-    ArrayList<String> toString = new ArrayList<String>();
+    protected ArrayList<String> toString = new ArrayList<String>();
 
     protected Athlete(String name, double weight, double height, Gender gender, String nationality, String birthdate) {
         this.name = name;
