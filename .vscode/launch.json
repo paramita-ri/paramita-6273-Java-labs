@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AthleteFormV4",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.lab8.AthleteFormV4",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
             "name": "Launch WorldAthleteV4",
             "request": "launch",
             "mainClass": "ritidet.paramita.lab6.WorldAthleteV4",
