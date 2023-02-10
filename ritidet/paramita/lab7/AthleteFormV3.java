@@ -1,3 +1,20 @@
+/*
+ * MySimpleWindow program is program that extends from class JFrame 
+ * There are three variables for three buttons whose names are “Cancel”, “Reset” and “Submit”. 
+ * These buttons should be protected.
+ * There are two panels, the main panel and the panel for the button. Similarly, 
+ * these panels should be protected.
+ * Implement method protected void setFrameFeatures() which performs the following tasks
+ * Set the window located at the center of the screen.
+ * Set the window visible.
+ * Exit the application using the System exit method when the user initiates a "close" on this frame.
+ * Set the size of the window appropriate for all the components.
+ * 
+ * Auther: paramita ritidet
+ * ID: 653040627-3
+ * sec: 1
+ * Date: 31 Janruary 2023
+ */
 package ritidet.paramita.lab7;
 
 import javax.swing.*;
