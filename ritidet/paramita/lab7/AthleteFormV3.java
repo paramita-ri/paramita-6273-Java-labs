@@ -1,14 +1,13 @@
 /*
- * MySimpleWindow program is program that extends from class JFrame 
- * There are three variables for three buttons whose names are “Cancel”, “Reset” and “Submit”. 
- * These buttons should be protected.
- * There are two panels, the main panel and the panel for the button. Similarly, 
- * these panels should be protected.
- * Implement method protected void setFrameFeatures() which performs the following tasks
- * Set the window located at the center of the screen.
- * Set the window visible.
- * Exit the application using the System exit method when the user initiates a "close" on this frame.
- * Set the size of the window appropriate for all the components.
+ * AthleteFormV3 program is program that extends from AthleteFormV2
+ * The title of the program is set to “Athlete Form V3”
+ * That have method addComponents() and setFrameFeatures() like AthleteFormV2
+ * but has new addMenus() method to create menu bar
+ * There are new JMenuBar: menuBar to create menu bar
+ * There are new JMenu: fileMenu, configMenu is a main meun colorMenu, sizeMenu is a submenu of configMenu
+ * There are new JMenuItem: newMenuItem, openItem, saveItem, exitItem is item in fileMenu redItem,greenItem, blueItem
+ * There are new ImageIcon: newImageIcon, openImageIcon, saveImageIcon for collect image icon for fileMenu
+ * 
  * 
  * Auther: paramita ritidet
  * ID: 653040627-3
@@ -21,8 +20,9 @@ import javax.swing.*;
 
 public class AthleteFormV3 extends AthleteFormV2 {
     protected JMenuBar menuBar;
-    protected JMenu file, config, color, size;
-    protected JMenuItem newMenu, open, save, exit, red, green, blue, size16, size20, size24;
+    protected JMenu fileMenu, configMenu, colorMenu, sizeMenu;
+    protected JMenuItem newMenuItem, openItem, saveItem, exitItem, redItem,
+    greenItem, blueItem, size16Item, size20Item, size24Item;
     protected ImageIcon newImageIcon, openImageIcon, saveImageIcon;
 
     public AthleteFormV3(String title) {
@@ -37,38 +37,38 @@ public class AthleteFormV3 extends AthleteFormV2 {
     }
 
     protected void addMenus() {
-        file = new JMenu("File");
+        fileMenu = new JMenu("File");
         newImageIcon = new ImageIcon("images/New-icon.png");
         openImageIcon = new ImageIcon("images/Open-icon.png");
         saveImageIcon = new ImageIcon("images/Save-icon.png");
-        newMenu = new JMenuItem("New", newImageIcon);
-        open = new JMenuItem("Open", openImageIcon);
-        save = new JMenuItem("Save", saveImageIcon);
-        exit = new JMenuItem("Exit");
-        file.add(newMenu);
-        file.add(open);
-        file.add(save);
-        file.add(exit);
-        config = new JMenu("Config");
-        color = new JMenu("Color");
-        size = new JMenu("Size");
-        red = new JMenuItem("Red");
-        green = new JMenuItem("Green");
-        blue = new JMenuItem("Blue");
-        size16 = new JMenuItem("16");
-        size20 = new JMenuItem("20");
-        size24 = new JMenuItem("24");
-        color.add(red);
-        color.add(green);
-        color.add(blue);
-        size.add(size16);
-        size.add(size20);
-        size.add(size24);
-        config.add(color);
-        config.add(size);
+        newMenuItem = new JMenuItem("New", newImageIcon);
+        openItem = new JMenuItem("Open", openImageIcon);
+        saveItem = new JMenuItem("Save", saveImageIcon);
+        exitItem = new JMenuItem("Exit");
+        fileMenu.add(newMenuItem);
+        fileMenu.add(openItem);
+        fileMenu.add(saveItem);
+        fileMenu.add(exitItem);
+        configMenu = new JMenu("Config");
+        colorMenu = new JMenu("Color");
+        sizeMenu = new JMenu("Size");
+        redItem = new JMenuItem("Red");
+        greenItem = new JMenuItem("Green");
+        blueItem = new JMenuItem("Blue");
+        size16Item = new JMenuItem("16");
+        size20Item = new JMenuItem("20");
+        size24Item = new JMenuItem("24");
+        colorMenu.add(redItem);
+        colorMenu.add(greenItem);
+        colorMenu.add(blueItem);
+        sizeMenu.add(size16Item);
+        sizeMenu.add(size20Item);
+        sizeMenu.add(size24Item);
+        configMenu.add(colorMenu);
+        configMenu.add(sizeMenu);
         menuBar = new JMenuBar();
-        menuBar.add(file);
-        menuBar.add(config);
+        menuBar.add(fileMenu);
+        menuBar.add(configMenu);
         this.setJMenuBar(menuBar);
     }
 
