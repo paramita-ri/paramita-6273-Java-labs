@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AthleteFormV7",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.lab8.AthleteFormV7",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch AthleteFormV6",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.lab8.AthleteFormV6",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch OlympicSymbol",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.lab8.OlympicSymbol",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch AthleteFormV5",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.lab8.AthleteFormV5",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
             "name": "Launch AthleteFormV4",
             "request": "launch",
             "mainClass": "ritidet.paramita.lab8.AthleteFormV4",
