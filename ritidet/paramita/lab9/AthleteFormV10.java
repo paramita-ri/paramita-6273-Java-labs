@@ -70,5 +70,4 @@ public class AthleteFormV10 extends AthleteFormV9 implements ListSelectionListen
             }
         });
     }
-
 }
