@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AthleteFormV11",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.lab10.AthleteFormV11",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "AthleteFormV10",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.lab9.AthleteFormV10",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "AthleteFormV9",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.lab9.AthleteFormV9",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "SimpleFormV5Ex",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.simpleform.SimpleFormV5Ex",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimpleFormV6",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.simpleform.SimpleFormV6",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch AthleteFormV8",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.lab9.AthleteFormV8",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimpleFormV5",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.simpleform.SimpleFormV5",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "Launch AthleteFormV9",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.exercises.AthleteFormV9",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
             "name": "Launch AthleteFormV8",
             "request": "launch",
             "mainClass": "ritidet.paramita.exercises.AthleteFormV8",

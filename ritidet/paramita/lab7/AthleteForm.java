@@ -20,6 +20,7 @@ import java.awt.*;
 public class AthleteForm extends MySimpleWindow {
     protected JRadioButton maleButton, femaleButton;
     protected JLabel nameLabel, weightLabel, heightLabel, birthDateLabel, genderLabel;
+    protected ButtonGroup buttonGenderGroup;
     protected JTextField nameField, weightField, heightField, birthDateField;
     protected JPanel topPanel, buttonGenderPanel;
 
@@ -38,7 +39,7 @@ public class AthleteForm extends MySimpleWindow {
         nameLabel = new JLabel("Name :");//create nameLabel
         weightLabel = new JLabel("Weight :");//create weightLabel
         heightLabel = new JLabel("Height :");//create heightLabel
-        birthDateLabel = new JLabel("Date of Birth (dd-mm-yyy) :");//create birthDateLabel
+        birthDateLabel = new JLabel("Date of Birth (dd-mm-yyyy) :");//create birthDateLabel
         genderLabel = new JLabel("Gender :");//create genderLabel
         nameField = new JTextField(15);//create nameField by lenght 15  
         weightField = new JTextField(15);//create weightField by lenght 15  
@@ -46,7 +47,7 @@ public class AthleteForm extends MySimpleWindow {
         birthDateField = new JTextField(15);//create birthDateField by lenght 15  
         maleButton = new JRadioButton("Male", false);//create maleButton
         femaleButton = new JRadioButton("Female", false);//create femaleButton
-        ButtonGroup buttonGenderGroup = new ButtonGroup();//create buttonGenderGroup
+        buttonGenderGroup = new ButtonGroup();//create buttonGenderGroup
         buttonGenderGroup.add(maleButton);//add maleButton in buttonGenderGroup
         buttonGenderGroup.add(femaleButton);//add femaleButton in buttonGenderGroup
         buttonGenderPanel = new JPanel();//create buttonGenderPanel

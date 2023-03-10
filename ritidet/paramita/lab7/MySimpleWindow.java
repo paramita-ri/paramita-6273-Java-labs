@@ -37,12 +37,11 @@ class MySimpleWindow extends JFrame {
         msw.setFrameFeatures();
     }
 
-    protected void setFrameFeatures() {
+    public void setFrameFeatures() {
         this.pack();//Set the size of the window appropriate for all the components.
         this.setLocationRelativeTo(null);//set the window located at the center of the screen
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//Exit the application using the System exit method when the user initiates a "close" on this frame.
         this.setVisible(true);//Set the window visible
-
     }
 
     protected void addComponents() {
