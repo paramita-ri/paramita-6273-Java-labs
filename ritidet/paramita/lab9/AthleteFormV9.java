@@ -67,8 +67,8 @@ public class AthleteFormV9 extends AthleteFormV8 implements ItemListener {
     // Method for add Listener
     protected void addListeners() {
         super.addListeners();
-        for (JTextField textField : textFieldList) {//loop for addActionListener to textField
-            textField.addActionListener(this);
+        for (JTextField infoTextField : textFieldList) {//loop for addActionListener to infoTextField
+            infoTextField.addActionListener(this);
         }
         nationality_box.addActionListener(this);//add ActionListener to nationality_box
         for (JMenuItem menuItem : menuItemList) {//loop for addActionListener to menuItem
@@ -77,8 +77,8 @@ public class AthleteFormV9 extends AthleteFormV8 implements ItemListener {
         maleButton.addItemListener(this);//add ItemListener to maleButton
         femaleButton.addItemListener(this);//add ItemListener to femaleButton
 
-        for (JCheckBox checkBox : checkBoxsList) {//loop for addItemListener to checkBox
-            checkBox.addItemListener(this);
+        for (JCheckBox nationCheckBox : checkBoxsList) {//loop for addItemListener to checkBox
+            nationCheckBox.addItemListener(this);
         }
 
     }
@@ -86,16 +86,16 @@ public class AthleteFormV9 extends AthleteFormV8 implements ItemListener {
     public void actionPerformed(ActionEvent event) {
         super.actionPerformed(event);//call method actionPerformed(ActionEvent event) from AthleteFormV8
         actionListnerObject = event.getSource();//set actionListnerObject by get event.getSource()
-        for (JTextField textField : textFieldList) {//loop for handle action events with textField
-            if (actionListnerObject == textField) {//to check if user is change data in textfield
-                JOptionPane.showMessageDialog(this, textField.getName() + " is changed to " + textField.getText());//showMessageDialog <new text in textField>
+        for (JTextField infoTextField : textFieldList) {//loop for handle action events with TextField
+            if (actionListnerObject == infoTextField) {//to check if user is change data in textfield
+                JOptionPane.showMessageDialog(this, infoTextField.getName() + " is changed to " + infoTextField.getText());//showMessageDialog <new text in TextField>
             }
         }
         if (actionListnerObject == nationality_box) {//to check if user is select data in textfield
-            JComboBox<?> comboBox = (JComboBox<?>) actionListnerObject;
-            if (comboBox.getSelectedItem() instanceof String) {//to check if comboBox is Selected
+            JComboBox<?> comboBoxSelected = (JComboBox<?>) actionListnerObject;
+            if (comboBoxSelected.getSelectedItem() instanceof String) {//to check if comboBox is Selected
                 JOptionPane.showMessageDialog(this, //showMessageDialog <name of Selected combobox>
-                        comboBox.getName() + " is changed to " + (String) comboBox.getSelectedItem());
+                        comboBoxSelected.getName() + " is changed to " + (String) comboBoxSelected.getSelectedItem());
             }
         }
         for (JMenuItem menuItem : menuItemList) {//loop for handle action events with menuItem
@@ -112,24 +112,24 @@ public class AthleteFormV9 extends AthleteFormV8 implements ItemListener {
     public void itemStateChanged(ItemEvent event) {
         SwingUtilities.invokeLater(new Runnable() {
             public void run() {
-                itemListenerObject = event.getSource();
-                for (JRadioButton genderbutton : genderbuttonlist) {
-                    if (itemListenerObject == genderbutton) {
-                        JRadioButton genderSelected = (JRadioButton) event.getItemSelectable();
-                        if (event.getStateChange() == ItemEvent.SELECTED) {
-                            JOptionPane.showMessageDialog(null, genderSelected.getText() + " is Selected");
+                itemListenerObject = event.getSource();//set itemListenerObject by get event.getSource()
+                for (JRadioButton genderbutton : genderbuttonlist) {//loop for handle item events with genderbutton
+                    if (itemListenerObject == genderbutton) {//check that event.getSource() is genderbutton
+                        JRadioButton genderSelected = (JRadioButton) event.getItemSelectable();//set genderSelected by get event.getItemSelectable()
+                        if (event.getStateChange() == ItemEvent.SELECTED) {//check that if genderbutton is selected
+                            JOptionPane.showMessageDialog(null, genderSelected.getText() + " is Selected");//showMessageDialog <gender> is selected
                         }
                     }
                 }
 
-                for (JCheckBox checkBox : checkBoxsList) {
-                    if (itemListenerObject == checkBox) {
-                        JCheckBox checkboxSelected = (JCheckBox) event.getItemSelectable();
-                        if (event.getStateChange() == ItemEvent.SELECTED) {
-                            JOptionPane.showMessageDialog(null, checkboxSelected.getText() + " is also your hobby");
-                        } else if (event.getStateChange() == ItemEvent.DESELECTED) {
+                for (JCheckBox nationCheckBox : checkBoxsList) {
+                    if (itemListenerObject == nationCheckBox) {//loop for handle item events with genderbutton
+                        JCheckBox checkboxSelected = (JCheckBox) event.getItemSelectable();//set checkboxSelected by get event.getItemSelectable()
+                        if (event.getStateChange() == ItemEvent.SELECTED) {//check that if checkBox is selected
+                            JOptionPane.showMessageDialog(null, checkboxSelected.getText() + " is also your hobby");//showMessageDialog <name checkbox> is is also your hobby
+                        } else if (event.getStateChange() == ItemEvent.DESELECTED) {//check that if checkBox is deselected
                             JOptionPane.showMessageDialog(null,
-                                    checkboxSelected.getText() + " is no longer your hobby");
+                                    checkboxSelected.getText() + " is no longer your hobby");//showMessageDialog <name checkbox> is is no longer your hobby
                         }
                     }
                 }

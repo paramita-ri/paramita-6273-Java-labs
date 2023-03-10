@@ -86,9 +86,9 @@ public class AthleteFormV8 extends AthleteFormV6 implements ActionListener {
                                                                            // birthDateMes
         textFeildMes = nameMes + weightMes + heightMes + birthDateMes;// collect text in textfeild to textFeildMes
         stateHobbiesBT = "";
-        for (JCheckBox checkBox : checkBoxsList) {// loop for get checkbox name if it is selected.
-            if (checkBox.isSelected()) {// if checkBox is selected get checkBox name in stateHobbiesBT
-                stateHobbiesBT += checkBox.getText() + ", ";
+        for (JCheckBox nationCheckBox : checkBoxsList) {// loop for get checkbox name if it is selected.
+            if (nationCheckBox.isSelected()) {// if checkBox is selected get checkBox name in stateHobbiesBT
+                stateHobbiesBT += nationCheckBox.getText() + ", ";
             } else {
                 stateHobbiesBT += "";
             }
@@ -115,11 +115,11 @@ public class AthleteFormV8 extends AthleteFormV6 implements ActionListener {
         bioTextArea.setText("");// Clear text in bioTextArea
         buttonGenderGroup.clearSelection();// Clear status of gender button
         yearExperienceSlider.setValue(0);
-        for (JTextField textField : textFieldList) {// loop for clear text in text field
-            textField.setText(" ");
+        for (JTextField infoTextField : textFieldList) {// loop for clear text in text field
+            infoTextField.setText(" ");
         }
-        for (JCheckBox checkBox : checkBoxsList) {// loop for set selected of checkBox to false
-            checkBox.setSelected(false);
+        for (JCheckBox nationCheckBox : checkBoxsList) {// loop for set selected of checkBox to false
+            nationCheckBox.setSelected(false);
         }
     }
 
