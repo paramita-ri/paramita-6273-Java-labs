@@ -45,20 +45,20 @@ public class AthleteFormV10 extends AthleteFormV9 implements ListSelectionListen
     }
     // Method for Handle ListsSelection events
     public void valueChanged(ListSelectionEvent event) {
-        String messageHB = "";
+        String messageSport = "";
         if (!event.getValueIsAdjusting()) {//to check that the user has completed their selection.
             List<String> selectedSport = sport_Jlist.getSelectedValuesList();//creat List<String> selectedSport from sport_Jlist.getSelectedValuesList()
             int selectedNum = selectedSport.size();//get size of selectedSport to selectedNum
             if (selectedNum > 1) {//to check if selected in Jlist is more than one 
-                for (int i = 0; i < selectedNum; i++) {//loop for get <seleted sport in jlist> to messageHB
-                    messageHB += selectedSport.get(i) + " ";
+                for (int i = 0; i < selectedNum; i++) {//loop for get <seleted sport in jlist> to messageSport
+                    messageSport += selectedSport.get(i) + " ";
                 }
-                JOptionPane.showMessageDialog(this, "Selected sports are " + messageHB);//showMessageDialog Selected sports are <seleted sport in jlist>
+                JOptionPane.showMessageDialog(this, "Selected sports are " + messageSport);//showMessageDialog Selected sports are <seleted sport in jlist>
             } else if (selectedNum == 1) {//to check if selected in Jlist is one 
-                for (int i = 0; i < selectedNum; i++) {//loop for get <seleted sport in jlist> to messageHB
-                    messageHB += selectedSport.get(i) + " ";
+                for (int i = 0; i < selectedNum; i++) {//loop for get <seleted sport in jlist> to messageSport
+                    messageSport += selectedSport.get(i) + " ";
                 }
-                JOptionPane.showMessageDialog(this, "Selected sports is " + messageHB);//showMessageDialog Selected sports is <seleted sport in jlist>
+                JOptionPane.showMessageDialog(this, "Selected sports is " + messageSport);//showMessageDialog Selected sports is <seleted sport in jlist>
             }
         }
     }
