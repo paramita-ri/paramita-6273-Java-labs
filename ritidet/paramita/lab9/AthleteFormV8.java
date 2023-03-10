@@ -107,6 +107,9 @@ public class AthleteFormV8 extends AthleteFormV6 implements ActionListener {
         bioTextArea.setText("");// Clear text in bioTextArea
         buttonGenderGroup.clearSelection();// Clear status of gender button
         yearExperienceSlider.setValue(0);// Set value of slider to 0
+        for (JTextField infoTextField : textFieldList) {// loop for clear text in text field
+            infoTextField.setText(" ");
+        }
     }
 
     // Method that setting componant for reset button 
