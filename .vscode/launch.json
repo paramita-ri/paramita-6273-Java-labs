@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AthleteFormV12",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.lab10.AthleteFormV12",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
+            "name": "AthleteFormV13",
+            "request": "launch",
+            "mainClass": "ritidet.paramita.lab10.AthleteFormV13",
+            "projectName": "paramita-6273-Java-labs_88c79e3a"
+        },
+        {
+            "type": "java",
             "name": "Adder",
             "request": "launch",
             "mainClass": "ritidet.paramita.exercises.Adder",
