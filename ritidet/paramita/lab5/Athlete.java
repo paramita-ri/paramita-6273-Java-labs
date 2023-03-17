@@ -100,13 +100,7 @@ public class Athlete {
     }
 
     public String toString() {
-        toString.add(name);
-        toString.add(weight + "kg");
-        toString.add(height + "m");
-        toString.add(gender.toString());
-        toString.add(nationality);
-        toString.add(birthdate.toString());
-        return "Athlete " + toString.toString();
+        return "Athlete [ " + name + " , " + weight  + " kg, " + height + " m, " + gender + " ," + nationality + " ," + birthdate.toString() + " ]"; 
     }
 
     void compareAge(Athlete athleteB) {

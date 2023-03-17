@@ -96,17 +96,17 @@ public class AthleteFormV11 extends ritidet.paramita.lab9.AthleteFormV10 {
         AthleteV2 inputAhlete = new AthleteV2(inputName, inputWeight, inputHeight, inputGender, inputNationality,
                 inputBirthDate);// Create new object inputAhlete by use data from user
         athleteArr
-                .add(new AthleteV2(inputName, inputWeight, inputHeight, inputGender, inputNationality, inputBirthDate));// Add
-                                                                                                                        // new
-                                                                                                                        // object
-                                                                                                                        // AthleteV2
-                                                                                                                        // by
-                                                                                                                        // use
-                                                                                                                        // data
-                                                                                                                        // from
-                                                                                                                        // user
-                                                                                                                        // in
-                                                                                                                        // athleteArr
+                .add(inputAhlete);// Add
+                                  // new
+                                  // object
+                                  // AthleteV2
+                                  // by
+                                  // use
+                                  // data
+                                  // from
+                                  // user
+                                  // in
+                                  // athleteArr
         JOptionPane.showMessageDialog(this, inputAhlete.toString());// display data in inputAhlete
     }
 
@@ -120,8 +120,8 @@ public class AthleteFormV11 extends ritidet.paramita.lab9.AthleteFormV10 {
         String displayAthletes = ""; // Create String variable displayAthletes for get each athlete from athleteArr
         int order = 1;// Create int variable for run order
         for (AthleteV2 athlete : athleteArr) {// loop for get each athlete in athleteArr
-            displayAthletes += order + ". " + athlete.toString() + "\n";// get <order>. athlete.toString() "\n" in
-                                                                        // displayAthletes
+            displayAthletes += order + ". " + athlete + "\n";// get <order>. athlete.toString() "\n" in
+                                                             // displayAthletes
             order++;// order plus one
         }
         if (athleteArr.size() == 0) {// To check if in athleteArr doesn't has athlete
@@ -137,14 +137,14 @@ public class AthleteFormV11 extends ritidet.paramita.lab9.AthleteFormV10 {
                                                                                                          // <displayAthletes>
         } else {// if in athleteArr have many athlete
             JOptionPane.showMessageDialog(this,
-                    "There are " + athleteArr.size() + " one athletes as follows:\n" + displayAthletes);// showMessageDialog
-                                                                                                        // "There are "
-                                                                                                        // +
-                                                                                                        // athleteArr.size()
-                                                                                                        // + " one
-                                                                                                        // athletes as
-                                                                                                        // follows:\n" +
-                                                                                                        // <displayAthletes>
+                    "There are " + athleteArr.size() + " athletes as follows:\n" + displayAthletes);// showMessageDialog
+                                                                                                    // "There are "
+                                                                                                    // +
+                                                                                                    // athleteArr.size()
+                                                                                                    // + " one
+                                                                                                    // athletes as
+                                                                                                    // follows:\n" +
+                                                                                                    // <displayAthletes>
         }
     }
 
@@ -156,9 +156,9 @@ public class AthleteFormV11 extends ritidet.paramita.lab9.AthleteFormV10 {
                                                                                               // enterAthlete
         for (AthleteV2 athlete : athleteArr) {// for check each athlete in athleteArr
             if (athlete.getName().equals(enterAthlete)) {// if name of athlete in athleteArr macth with name from user
-                JOptionPane.showMessageDialog(this, athlete.toString() + " is found");// showMessageDialog
-                                                                                      // athlete.toString() + " is
-                                                                                      // found"
+                JOptionPane.showMessageDialog(this, athlete + " is found");// showMessageDialog
+                                                                           // athlete.toString() + " is
+                                                                           // found"
             } else {// if name of athlete in athleteArr not macth with name from user
                 JOptionPane.showMessageDialog(this, "Athlete " + enterAthlete + " is NOT found");// showMessageDialog
                                                                                                  // "Athlete " +

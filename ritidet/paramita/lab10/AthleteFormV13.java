@@ -34,35 +34,15 @@ public class AthleteFormV13 extends AthleteFormV12 {
         try {
             String strFromTxtF = textField.getText();
             double numFormTxtF = Double.parseDouble(strFromTxtF);
-            if (numFormTxtF > 0 && numFormTxtF <= maxValue && (strFromTxtF.equalsIgnoreCase("f" + "d"))) {// if number
-                                                                                                          // from user
-                                                                                                          // in range
-                                                                                                          // (0,
-                                                                                                          // maxvalue]
-                                                                                                          // and don't
-                                                                                                          // have f or d
-                                                                                                          // in number
+            if (numFormTxtF > 0 && numFormTxtF <= maxValue) {// if number
+                                                             // from user
+                                                             // in range
+                                                             // (0,
+                                                             // maxvalue]
+                                                             // and don't
+                                                             // have f or d
+                                                             // in number
                 return 1;// return 1
-            } else if (numFormTxtF > 0 && numFormTxtF <= maxValue && !strFromTxtF.equalsIgnoreCase("f" + "d")) {// if
-                                                                                                                // number
-                                                                                                                // from
-                                                                                                                // user
-                                                                                                                // in
-                                                                                                                // range
-                                                                                                                // (0,
-                                                                                                                // maxvalue]
-                                                                                                                // and
-                                                                                                                // have
-                                                                                                                // f or
-                                                                                                                // d in
-                                                                                                                // number
-                JOptionPane.showMessageDialog(this, "Please enter a valid number for " + data);// showMessageDialog
-                                                                                               // "Please enter a valid
-                                                                                               // number for " + data
-                return -1;// return -1
-                // The need to write the condition like this because if not entered, the program
-                // will count that
-                // the f and d after the number are double and float variables.
             } else if (numFormTxtF > maxValue) {// if number from user greater than maxValue
                 JOptionPane.showMessageDialog(this, data + " should be less than " + maxValue);// showMessageDialog data
                                                                                                // + " should be less
