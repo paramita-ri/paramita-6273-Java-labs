@@ -24,12 +24,13 @@
 
 package ritidet.paramita.lab5;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 
-public class Athlete {
+public class Athlete implements Serializable {//fix becuase order in lab11
     public enum Gender {
         FEMALE,
         MALE
@@ -39,7 +40,7 @@ public class Athlete {
     protected double weight, height;
     protected Gender gender;
     protected LocalDate birthdate;
-    final protected DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+    //final protected DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy"); //fix becuase order in lab11
     protected ArrayList<String> toString = new ArrayList<String>();
 
     protected Athlete(String name, double weight, double height, Gender gender, String nationality, String birthdate) {
@@ -48,6 +49,7 @@ public class Athlete {
         this.height = height;
         this.gender = gender;
         this.nationality = nationality;
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");//fix becuase order in lab11
         this.birthdate = LocalDate.parse(birthdate, formatter);
     }
 
