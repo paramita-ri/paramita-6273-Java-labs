@@ -31,7 +31,8 @@ public class AthleteFormV16 extends AthleteFormV15 {
         msw.addListeners();// Call method addListeners()
         msw.setFrameFeatures();// Call method setFrameFeatures()
     }
-    // Method for get athlete 
+
+    // Method for get athlete
     public void getAthlete() {
         String inputName = nameField.getText();// Create String variable for get data from nameField
         double inputWeight = Double.parseDouble(weightField.getText());// Create double variable for get data from
@@ -46,6 +47,7 @@ public class AthleteFormV16 extends AthleteFormV15 {
         inputAhlete = new AthleteV2(inputName, inputWeight, inputHeight, inputGender, inputNationality,
                 inputBirthDate);// Create new object inputAhlete by use data from user
     }
+
     // Method for save athlete in file
     public void saveAthleteFile() {
         JFileChooser fileChooser = new JFileChooser();// Create new object fileChooser
@@ -65,13 +67,16 @@ public class AthleteFormV16 extends AthleteFormV15 {
                 oos.close();// Close oos
                 fos.close();// Close fos
                 JOptionPane.showMessageDialog(this, "Saving the Athlete in the file " + fileName);// Show message dialog
-                                                                                               // "Saving the Athlete in
-                                                                                               // the file " + fileName
+                                                                                                  // "Saving the Athlete
+                                                                                                  // in
+                                                                                                  // the file " +
+                                                                                                  // fileName
             } catch (Exception e) {
                 e.printStackTrace();// Print error
             }
         }
     }
+
     // Method for open athlete in file
     public void openAthleteFile() {
         JFileChooser fileChooser = new JFileChooser();// Create new object fileChooser
@@ -89,6 +94,7 @@ public class AthleteFormV16 extends AthleteFormV15 {
             }
         }
     }
+
     // Overide method actionPerformed(ActionEvent event)
     public void actionPerformed(ActionEvent event) {
         super.actionPerformed(event);// Call method actionPerformed(ActionEvent event) from AthleteFormV15

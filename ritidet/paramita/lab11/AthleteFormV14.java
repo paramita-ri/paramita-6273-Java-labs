@@ -35,7 +35,7 @@ public class AthleteFormV14 extends ritidet.paramita.lab10.AthleteFormV13 {
     // Method for save hobbies file when click save menu
     public void saveHobbiesFile() {
         JFileChooser fileChooser = new JFileChooser();// Create JFileChooser
-        int returnValue = fileChooser.showSaveDialog(this);//Create int variable for get data from fileChooser
+        int returnValue = fileChooser.showSaveDialog(this);// Create int variable for get data from fileChooser
         if (returnValue == JFileChooser.APPROVE_OPTION) {// Check if returnValue is equal to JFileChooser.APPROVE_OPTION
             File userSelectedFile = fileChooser.getSelectedFile();// Get selected file
             String fileName = userSelectedFile.getAbsolutePath();// Get file name
@@ -83,7 +83,7 @@ public class AthleteFormV14 extends ritidet.paramita.lab10.AthleteFormV13 {
     // Method for open hobbies file when click open menu
     public void openHobbiesFile() {
         JFileChooser fileChooser = new JFileChooser();// Create JFileChooser
-        int returnValue = fileChooser.showOpenDialog(this);//Create int variable for get data from fileChooser
+        int returnValue = fileChooser.showOpenDialog(this);// Create int variable for get data from fileChooser
         if (returnValue == JFileChooser.APPROVE_OPTION) {// Check if returnValue is equal to JFileChooser.APPROVE_OPTION
             File userSelectedFile = fileChooser.getSelectedFile();// Get selected file
             try {
